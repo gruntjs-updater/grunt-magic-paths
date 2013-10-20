@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+test/test.html
+test/fixtures/test.html
+test/fixtures/resolve/test.html
