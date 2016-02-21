@@ -1,43 +1,43 @@
 {
-    "name":                         "grunt-magic-paths",
-    "description":                  "Magical asset paths for your HTML templates.",
-    "version":                      "0.1.0",
-    "homepage":                     "https://github.com/ben-eb/grunt-magic-paths",
+    "name": "grunt-magic-paths",
+    "description": "Magical asset paths for your HTML templates.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/ben-eb/grunt-magic-paths",
     "author": {
-        "name":                     "Ben Briggs",
-        "email":                    "therealbenbriggs@hotmail.com",
-        "url":                      "http://beneb.info"
+        "name": "Ben Briggs",
+        "email": "therealbenbriggs@hotmail.com",
+        "url": "http://beneb.info"
     },
     "repository": {
-        "type":                     "git",
-        "url":                      "git://github.com/ben-eb/grunt-magic-paths.git"
+        "type": "git",
+        "url": "git://github.com/ben-eb/grunt-magic-paths.git"
     },
     "bugs": {
-        "url":                      "https://github.com/ben-eb/grunt-magic-paths/issues"
+        "url": "https://github.com/ben-eb/grunt-magic-paths/issues"
     },
     "licenses": [
         {
-            "type":                 "MIT",
-            "url":                  "https://github.com/ben-eb/grunt-magic-paths/blob/master/LICENSE-MIT"
+            "type": "MIT",
+            "url": "https://github.com/ben-eb/grunt-magic-paths/blob/master/LICENSE-MIT"
         }
     ],
-    "main":                         "Gruntfile.js",
+    "main": "Gruntfile.js",
     "engines": {
-        "node":                     ">= 0.8.0"
+        "node": ">= 0.8.0"
     },
     "scripts": {
-        "test":                     "grunt test"
+        "test": "grunt test"
     },
     "devDependencies": {
-        "grunt-contrib-jshint"   :  "~0.6.0",
-        "grunt-contrib-clean"    :  "~0.4.0",
-        "grunt-contrib-nodeunit" :  "~0.2.0",
-        "grunt-lintspaces"       :  "~0.2.202",
-        "grunt"                  :  "~0.4.1",
-        "load-grunt-tasks"       :  "~0.1.0"
+        "grunt-contrib-jshint": "~0.6.0",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt-lintspaces": "~0.2.202",
+        "grunt": "~0.4.1",
+        "load-grunt-tasks": "~0.1.0"
     },
     "peerDependencies": {
-        "grunt":                    "~0.4.1"
+        "grunt": ">=0.4.0"
     },
     "keywords": [
         "gruntplugin"
